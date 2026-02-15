@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+venv/
+.venv/
+env/
+.env
+
+# Models (large binary files)
+models/*.bin
+models/*.pt
+models/*.onnx
+models/*.safetensors
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Docker
+.dockerignore
+
+# Test artifacts
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
